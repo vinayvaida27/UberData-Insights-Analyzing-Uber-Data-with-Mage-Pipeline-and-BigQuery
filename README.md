@@ -4,11 +4,17 @@ This repository contains the code and resources for conducting data analytics on
 
 Contents
 data: Contains the Uber dataset file (uber_data.csv).
+
 Mage_Pipeline: Contains the Mage Pipeline files for the ETL process, including extract, transform, and load code along with the YAML configuration file.
+
 analytics_query: Includes the SQL query for performing analytics on the transformed data in Google BigQuery.
+
 data_model: Provides the dimensional modeling of tables used in the project.
+
 Jupyter: Contains Jupyter notebook files with ETL transformation code for data processing and analysis.
+
 commands: Includes a document with Ubuntu and Google Virtual Instance commands for setup and execution.
+
 Usage
 Data Extraction: Use the provided dataset file (uber_data.csv) for extracting Uber data.
 ETL Process: Utilize the Mage Pipeline files to perform extract, transform, and load operations on the data. Refer to the YAML configuration file for setup.
