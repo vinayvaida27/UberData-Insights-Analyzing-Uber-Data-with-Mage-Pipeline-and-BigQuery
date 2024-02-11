@@ -1,0 +1,38 @@
+#!/bin/bash
+
+# Install Python and pip
+sudo apt-get update
+sudo apt-get install -y python3-distutils python3-apt wget
+
+# Download and install pip
+wget https://bootstrap.pypa.io/get-pip.py
+sudo python3 get-pip.py
+
+# Install required Python packages
+sudo pip3 install mage-ai pandas google-cloud google-cloud-bigquery
+
+
+
+to open
+Open a terminal or command prompt: Navigate to the directory where you want to work with your project.
+
+Activate your Python virtual environment (if applicable): If you're using a virtual environment, activate it using the source command. For example:
+
+bash
+Copy code
+source myenv/bin/activate
+Run the mage start command: Once you're in the appropriate directory and your virtual environment is activated, simply run the command:
+
+sql
+Copy code
+mage start uber_de_project
+This command will instruct the Mage CLI to start the uber_de_project project. Make sure that uber_de_project is a valid project name configured within Mage.
+
+
+source myenv/bin/activate
+pip3 install mage-ai
+pip3 install pandas
+pip3 install google-cloud
+pip3 install google-cloud-bigquery
+
+

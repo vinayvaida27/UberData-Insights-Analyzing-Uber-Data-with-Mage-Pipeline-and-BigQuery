@@ -1,6 +1,4 @@
-# UberData-Insights-Analyzing-Uber-Data-with-Mage-Pipeline-and-BigQuery
-Unlock insights from Uber data with our comprehensive analytics project. Utilize Mage Pipeline for ETL processing, BigQuery for analysis, and Jupyter notebooks for transformation. Dive deep into data modeling and visualization for actionable intelligence.
-
+Uber Data Analytics Project
 Overview
 This repository contains the code and resources for conducting data analytics on Uber data. The project involves extracting data, transforming it using Mage Pipeline, loading it into Google BigQuery, and performing analytics using SQL queries. Additionally, it includes data modeling, ETL transformation code, and documentation for setup and execution.
 
